@@ -1,0 +1,36 @@
+@media(1810px <= width <= 1990px){
+    .single-container{
+        padding: 0 8.5rem;
+     
+    }
+}
+@media(1735px <= width <= 1810px){
+    .single-container{
+        padding: 0 7rem;
+     
+    }
+}
+@media(1620px <= width <= 1735px){
+    .single-container{
+        padding: 0 5rem;
+     
+    }
+}
+@media(1500px <= width <= 1620px){
+    .single-container{
+        padding: 0 4rem;
+     
+    }
+}
+@media(1300px <= width <= 1500px){
+    .single-container{
+        padding: 0 1.2rem;
+     
+    }
+}
+@media( width <= 1300px){
+    .single-container{
+        padding: 0;
+     
+    }
+}

@@ -1,0 +1,43 @@
+.main-sb{
+    padding: 1.5rem 0;
+}
+.search-bar{
+    display: flex;
+    justify-content:end; 
+  }
+  .input-container{
+    position: relative;
+    padding-right: 8rem;
+  }
+
+  .saerch-icon-img{
+    min-width: 1.8rem;
+    min-height: 1.8rem;
+    
+  }
+  .search-icon{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+  }
+  .input{
+    min-width: 27rem;
+    max-width: 35rem;
+    min-height: auto;
+    border:none;
+    border-bottom: 2px solid red;
+    padding: 5px 10px;
+    outline: none;
+    padding:0.5rem 1rem 0.5rem 2.5rem;
+    font: 1.4rem "Roboto", sans-serif;
+    background-color: whitesmoke;
+  }
+  .arrow-button{
+    border: none;
+    background-color: transparent;
+  }
+  .arrow-img{
+    min-width: 2rem;
+    min-height: 2rem;
+    background-color: antiquewhite;
+  }

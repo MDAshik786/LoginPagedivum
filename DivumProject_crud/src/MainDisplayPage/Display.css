@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+  .maindis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .main-con{
+
+    padding: 0 7rem;
+  }
+  .maindis{
+ 
+   gap: 2rem;
+    padding: 3rem ;
+    background-color: whitesmoke;
+    border-radius: 2rem;
+  }
+  .heading-child1{
+    white-space: nowrap;
+  }
+ 
+  .content-table {
+    border-collapse: collapse;
+    
+  }
+ 
+   .content-table th{
+    padding: 1rem 3rem;
+    background-color: rgb(219, 212, 212);
+    border: 2px solid #100f0f;
+    text-align:center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  
+  .content-table td {
+    padding: 0.8rem 0.3rem;
+    border: 2px solid #100f0f;
+    text-align:center;
+    font-size: 1.2rem;
+    background-color: white;
+  }
+   .edit-img,
+  .delete-img {
+    cursor: pointer;
+  }
+
+  .content-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #060000;
+  }
+  .heading-child1{
+    padding: 0 11rem;
+  }
+
+.hcl-child-2{
+ padding: 0.5rem;
+ margin-right:1rem;
+}
+.hcl-child-3{
+  padding: 0.3rem 0.9rem 0.5rem 0.9rem;
+}
+
+.edit-img,
+.delete-img {
+  min-width: 2.5rem;
+  min-height: 1.9rem;
+}
+
+.edit-img:active,
+.delete-img:active {
+  opacity: 0.5;
+  min-height: 1.4rem;
+}
+.delete-container,.delete-container1 {
+  background-color: rgb(221, 231, 231);
+  min-width: 20%;
+  min-height: 20%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.content {
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+}
+.delete-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.delete-img {
+  min-height: 2.2rem;
+  min-width: 2rem;
+  color: red;
+}
+.cancel-button:active {
+  background-color: gainsboro;
+  opacity: 0.5;
+}
+.hcl-child-2,
+.hcl-child-3 {
+  border: none;
+  background-color:#ebf3f3;
+  border-radius: 1rem;
+}
+
+.img-gif {
+  width: 8rem;
+  height: 8rem;
+  
+}
+.gif {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.submite-button2,.submite-button3{
+  background-color: lightgreen;
+  margin-right: 2rem;
+}
+.submite-button1 {
+  background-color: red;
+}
+.uploded-time{
+  white-space: nowrap;
+  display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.time{
+  padding-left: 1rem;
+}

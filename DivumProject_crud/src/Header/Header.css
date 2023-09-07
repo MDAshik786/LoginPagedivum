@@ -1,0 +1,24 @@
+.header-main{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 7rem;
+    position: sticky;
+   
+  }
+  .header-main .img{
+    width: 47%;
+    height: auto;
+    padding: 0.2rem 0;
+  }
+  .icons-img{
+     width:75%;
+     min-height: 4rem;
+     color: aliceblue;
+  }
+  .icons-img:active{
+    min-height: 3rem;
+    color: rgb(146, 144, 144);
+  }
+  

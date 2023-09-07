@@ -1,0 +1,134 @@
+.all {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    box-shadow: #c5ebeb 10px 30px 60px -12px inset,
+    #c5ebeb 0px 18px 36px -18px inset;
+    gap: 2rem;
+    padding: 2rem;
+    background-image: linear-gradient(white, whitesmoke);
+    position: relative;
+  }
+  textarea {
+    min-width: 21rem;
+    font-size: 1.1rem;
+  }
+  .head:nth-child(1) {
+    padding: 3rem 0 1rem 0;
+    font: 1.8rem 'Headland One', serif;
+    font-weight: bold;
+    color: #014f4c;
+  }
+  .userdata {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+    background-image: linear-gradient(#006663, #111111);
+  }
+  .single-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 10rem;
+    text-align: center;
+  }
+  input {
+    min-width: 21rem;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    background-color:#e0f8f8;
+  }
+  textarea {
+    border: none;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 0.5rem;
+    background-color: #e0f8f8;
+    font-size: 1.2rem;
+  }
+  .head {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    padding: 1.5rem 0 0 0;
+  }
+  .submite-button,
+  .submite-button1,
+  .submite-button2,.submite-button3 {
+    padding: 1rem 1.9rem;
+    border-radius: 0.8rem;
+    border: none;
+    font-size: 1.1rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .submite-button:active {
+    background-color: gray;
+  }
+  .error-msg,
+  .error-msg-email {
+    color: red;
+    position: absolute;
+    opacity: 0;
+  }
+  .relative {
+    position: relative;
+  }
+  .submite-button:first-child {
+    background-color: red;
+    margin-right: 2rem;
+  }
+  .submite-button:last-child {
+    background-color: lightgreen;
+  }
+  .submite-button:active,
+  .submite-button1:active,
+  .submite-button2:active {
+    opacity: 0.8;
+    padding: 0.6rem 1.8rem;
+  }
+  .cancel-img {
+    min-width: 1.7rem;
+    min-height: 1.7rem;
+  }
+  .cancel-button {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    top: 1px;
+    right: 2px;
+    cursor: pointer;
+  }
+  .cancel-button:active,
+  .cancel-img:active {
+    background-color: transparent;
+    opacity: 0.5;
+    min-height: 1.5rem;
+  }
+  .cancel-img:hover {
+    opacity: 0.7;
+  }
+  button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .info-icon {
+    position: absolute;
+    top: 0.7rem;
+    right: 0.7rem;
+  }
+  .info-icon-1 {
+    position: absolute;
+    top: 1.8rem;
+    right: 0.7rem;
+  
+  }
+  .input-name{
+    font: 1.2rem 'Headland One', serif;
+    font-weight: bold;
+  }
+  
